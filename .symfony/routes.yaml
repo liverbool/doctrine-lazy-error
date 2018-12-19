@@ -1,0 +1,2 @@
+"https://{default}/": { type: upstream, upstream: "doctrine-lazy-error:http" }
+"http://{default}/": { type: redirect, to: "https://{default}/" }
